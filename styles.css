@@ -1,0 +1,47 @@
+.imagens {
+  position: relative;
+  width: 500px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.imagens img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.destaque {
+  text-align: center;
+  width: 700px;
+  margin: 0 auto;
+}
+
+body {
+  background-color: grey;
+}
+
+.imagem1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.texto {
+  font-size: 20px;
+  opacity: 0;
+  color: red;
+  text-align: center;
+}
+
+.galeria:hover .imagem2 {
+  opacity: 1;
+}
+
+.galeria:hover .imagem1 {
+  opacity: 0;
+}
+
+.galeria:hover .texto {
+  opacity: 1;
+}
